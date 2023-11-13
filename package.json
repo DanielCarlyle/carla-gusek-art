@@ -2,8 +2,8 @@
 	"name": "frontend-starter",
 	"license": "MIT",
 	"version": "1.6.2",
-	"author": "github.com/zakandaiev",
-	"description": "FrontEnd Starter - boilerplate for easy building sites using task manager Gulp 4",
+	"author": "github.com/danielcarlyle",
+	"description": "Carla Gusek Artists Painting Portfolio Website",
 	"keywords": [
 		"frontend",
 		"starter",
