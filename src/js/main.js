@@ -7,7 +7,13 @@ const GET_PARAM = (key) => {
 
 @@include('partial/watermark.js')
 
-// UTILS
+$(document).ready(function () {
+	//your code here
+	// UTILS
+@@include('util/breakpoints.min.js')
+@@include('util/browser.min.js')
+@@include('util/jquery.min.js')
+@@include('util/menu.js')
 @@include('util/cyr-to-lat.js')
 @@include('util/encoding.js')
 @@include('util/fade.js')
@@ -19,6 +25,9 @@ const GET_PARAM = (key) => {
 @@include('util/smooth-scroll.js')
 @@include('util/storage.js')
 @@include('util/vibrate.js')
+@@include('util/util.js')
+  });
+
 
 document.addEventListener('DOMContentLoaded', () => {
 	// PARTIALS
