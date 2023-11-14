@@ -5,7 +5,7 @@ const GET_PARAM = (key) => {
 	return new URL(FULL_URL).searchParams.get(key);
 };
 
-@@include('partial/watermark.js')
+//@@include('partial/watermark.js')
 
 $(document).ready(function () {
 	//your code here
